@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace LabWork3
 {
-    class ATriangle
+    public class ATriangle
     {
         protected int a;
         protected int b;
@@ -56,7 +56,7 @@ namespace LabWork3
 
         // task 2
 
-        class Product
+        public class Product
         {
             protected string name;
             protected double weight;
@@ -73,7 +73,7 @@ namespace LabWork3
             }
         }
 
-        class Part : Product
+        public class Part : Product
         {
             protected string material;
 
@@ -88,7 +88,7 @@ namespace LabWork3
             }
         }
 
-        class Assembly : Product
+        public class Assembly : Product
         {
             protected int partCount;
 
@@ -103,7 +103,7 @@ namespace LabWork3
             }
         }
 
-        class Mechanism : Assembly
+        public class Mechanism : Assembly
         {
             protected string function;
 
@@ -120,7 +120,7 @@ namespace LabWork3
 
         // task 2 end
 
-        class Program
+        public class Program
         {
             static void Main()
             {
